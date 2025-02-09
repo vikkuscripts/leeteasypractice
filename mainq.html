@@ -4,6 +4,7 @@
   <title>Document</title>
 </head>
 <body>
+  //add a functin isidenticalproducts to compare two product objcts//
  <script>
  let product1 ={
 color :'red',
@@ -11,7 +12,7 @@ fit:'regular',
 size:'m',
 };
 let product2 ={
-  color :'red',
+  color :'gluu',
 fit:'regular',
 size:'m',
 };
@@ -24,16 +25,16 @@ size:'m',
 
 
 function isIdenticalProduct( product1,product2){
-  if(product1 === product2){
-  return true;
-  }
-  if(typeof product1 !== 'object' || typeof project2 !== 'object'){
-console.warn('parameter passed was not an pobject ');
-return false;
-}
-if(product1 === product2){
-  return true;
-  }
+//   if(product1 === product2){
+//   return true;
+//   }
+//   if(typeof product1 !== 'object' || typeof project2 !== 'object'){
+// console.warn('parameter passed was not an pobject ');
+// return false;
+// }
+// if(product1 === product2){
+//   return true;
+//   }
   if ( product1.color === product2.color && 
        product1.size === product2.size &&
        product1.fit === product2.fit ) {
